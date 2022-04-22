@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Joke from './components/joke';
+import Characters from './components/characters';
 
 function App() {
   return (
     <div className="App">
-      <Joke/>
+      <Characters/>
     </div>
   );
 }
